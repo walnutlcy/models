@@ -1,0 +1,165 @@
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/setuptools/sandbox.py:13: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/pkg_resources/__init__.py:2871: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('google')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/pkg_resources/__init__.py:2871: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/pkg_resources/__init__.py:2871: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('ruamel')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+No module named 'skimage', [scikit-image] package and it's dependencies is required for ADDS.
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/scipy/sparse/sputils.py:16: DeprecationWarning: `np.typeDict` is a deprecated alias for `np.sctypeDict`.
+  supported_dtypes = [np.typeDict[x] for x in supported_dtypes]
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/scipy/special/orthogonal.py:81: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  from numpy import (exp, inf, pi, sqrt, floor, sin, cos, around, int,
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/scipy/linalg/__init__.py:217: DeprecationWarning: The module numpy.dual is deprecated.  Instead of using dual, use the functions directly from numpy or scipy.
+  from numpy.dual import register_func
+No module named 'SimpleITK', [SimpleITK] package and it's dependencies is required for PP-Care.
+No module named 'SimpleITK', [SimpleITK] package and it's dependencies is required for PP-Care.
+No module named 'lmdb', [lmdb] package and it's dependencies is required for ActBERT.
+No module named 'lmdb', [lmdb] package and it's dependencies is required for ActBERT.
+[12/30 17:31:50] DALI is not installed, you can improve performance if use DALI
+[12/30 17:31:50] [35mDATASET[0m : 
+[12/30 17:31:50]     [35mbatch_size[0m : [92m1[0m
+[12/30 17:31:50]     [35mnum_workers[0m : [92m4[0m
+[12/30 17:31:50]     [35mtest[0m : 
+[12/30 17:31:50]         [35mdata_prefix[0m : [92m[0m
+[12/30 17:31:50]         [35mfile_path[0m : [92m/home/aistudio/fight_val_list.txt[0m
+[12/30 17:31:50]         [35mformat[0m : [92mFrameDataset[0m
+[12/30 17:31:50]         [35msuffix[0m : [92mimg_{:05}.jpg[0m
+[12/30 17:31:50]     [35mtest_batch_size[0m : [92m1[0m
+[12/30 17:31:50]     [35mtrain[0m : 
+[12/30 17:31:50]         [35mdata_prefix[0m : [92m[0m
+[12/30 17:31:50]         [35mfile_path[0m : [92m/home/aistudio/fight_train_list.txt[0m
+[12/30 17:31:50]         [35mformat[0m : [92mFrameDataset[0m
+[12/30 17:31:50]         [35msuffix[0m : [92mimg_{:05}.jpg[0m
+[12/30 17:31:50]     [35mvalid[0m : 
+[12/30 17:31:50]         [35mdata_prefix[0m : [92m[0m
+[12/30 17:31:50]         [35mfile_path[0m : [92m/home/aistudio/fight_val_list.txt[0m
+[12/30 17:31:50]         [35mformat[0m : [92mFrameDataset[0m
+[12/30 17:31:50]         [35msuffix[0m : [92mimg_{:05}.jpg[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mINFERENCE[0m : 
+[12/30 17:31:50]     [35mname[0m : [92mppTSM_Inference_helper[0m
+[12/30 17:31:50]     [35mnum_seg[0m : [92m8[0m
+[12/30 17:31:50]     [35mtarget_size[0m : [92m224[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mMETRIC[0m : 
+[12/30 17:31:50]     [35mname[0m : [92mCenterCropMetric[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mMIX[0m : 
+[12/30 17:31:50]     [35mcutmix_alpha[0m : [92m1.0[0m
+[12/30 17:31:50]     [35mcutmix_prob[0m : [92m0.5[0m
+[12/30 17:31:50]     [35mmixup_alpha[0m : [92m0.2[0m
+[12/30 17:31:50]     [35mname[0m : [92mVideoMix[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mMODEL[0m : 
+[12/30 17:31:50]     [35mbackbone[0m : 
+[12/30 17:31:50]         [35mdepth[0m : [92m50[0m
+[12/30 17:31:50]         [35mname[0m : [92mResNetTweaksTSM[0m
+[12/30 17:31:50]         [35mpretrained[0m : [92m/home/aistudio/ResNet50_vd_ssld_v2_pretrained.pdparams[0m
+[12/30 17:31:50]     [35mframework[0m : [92mRecognizer2D[0m
+[12/30 17:31:50]     [35mhead[0m : 
+[12/30 17:31:50]         [35mdrop_ratio[0m : [92m0.5[0m
+[12/30 17:31:50]         [35min_channels[0m : [92m2048[0m
+[12/30 17:31:50]         [35mls_eps[0m : [92m0.1[0m
+[12/30 17:31:50]         [35mname[0m : [92mppTSMHead[0m
+[12/30 17:31:50]         [35mnum_classes[0m : [92m2[0m
+[12/30 17:31:50]         [35mstd[0m : [92m0.01[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mOPTIMIZER[0m : 
+[12/30 17:31:50]     [35mlearning_rate[0m : 
+[12/30 17:31:50]         [35mcosine_base_lr[0m : [92m0.001[0m
+[12/30 17:31:50]         [35miter_step[0m : [92mTrue[0m
+[12/30 17:31:50]         [35mmax_epoch[0m : [92m70[0m
+[12/30 17:31:50]         [35mname[0m : [92mCustomWarmupCosineDecay[0m
+[12/30 17:31:50]         [35mwarmup_epochs[0m : [92m10[0m
+[12/30 17:31:50]         [35mwarmup_start_lr[0m : [92m0.002[0m
+[12/30 17:31:50]     [35mmomentum[0m : [92m0.9[0m
+[12/30 17:31:50]     [35mname[0m : [92mMomentum[0m
+[12/30 17:31:50]     [35muse_nesterov[0m : [92mTrue[0m
+[12/30 17:31:50]     [35mweight_decay[0m : 
+[12/30 17:31:50]         [35mname[0m : [92mL2[0m
+[12/30 17:31:50]         [35mvalue[0m : [92m0.0001[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mPIPELINE[0m : 
+[12/30 17:31:50]     [35mtest[0m : 
+[12/30 17:31:50]         [35mdecode[0m : 
+[12/30 17:31:50]             [35mname[0m : [92mFrameDecoder[0m
+[12/30 17:31:50]         [35msample[0m : 
+[12/30 17:31:50]             [35mdense_sample[0m : [92mTrue[0m
+[12/30 17:31:50]             [35mname[0m : [92mSampler[0m
+[12/30 17:31:50]             [35mnum_seg[0m : [92m8[0m
+[12/30 17:31:50]             [35mseg_len[0m : [92m1[0m
+[12/30 17:31:50]             [35mvalid_mode[0m : [92mTrue[0m
+[12/30 17:31:50]         [35mtransform[0m : 
+[12/30 17:31:50]             [35mScale[0m : 
+[12/30 17:31:50]                 [35mshort_size[0m : [92m256[0m
+[12/30 17:31:50]             [35mGroupFullResSample[0m : 
+[12/30 17:31:50]                 [35mcrop_size[0m : [92m224[0m
+[12/30 17:31:50]             [35mImage2Array[0m : [92mNone[0m
+[12/30 17:31:50]             [35mNormalization[0m : 
+[12/30 17:31:50]                 [35mmean[0m : [92m[0.485, 0.456, 0.406][0m
+[12/30 17:31:50]                 [35mstd[0m : [92m[0.229, 0.224, 0.225][0m
+[12/30 17:31:50]     [35mtrain[0m : 
+[12/30 17:31:50]         [35mdecode[0m : 
+[12/30 17:31:50]             [35mname[0m : [92mFrameDecoder[0m
+[12/30 17:31:50]         [35msample[0m : 
+[12/30 17:31:50]             [35mdense_sample[0m : [92mTrue[0m
+[12/30 17:31:50]             [35mname[0m : [92mSampler[0m
+[12/30 17:31:50]             [35mnum_seg[0m : [92m8[0m
+[12/30 17:31:50]             [35mseg_len[0m : [92m1[0m
+[12/30 17:31:50]             [35mvalid_mode[0m : [92mFalse[0m
+[12/30 17:31:50]         [35mtransform[0m : 
+[12/30 17:31:50]             [35mScale[0m : 
+[12/30 17:31:50]                 [35mshort_size[0m : [92m256[0m
+[12/30 17:31:50]             [35mMultiScaleCrop[0m : 
+[12/30 17:31:50]                 [35mtarget_size[0m : [92m256[0m
+[12/30 17:31:50]             [35mRandomCrop[0m : 
+[12/30 17:31:50]                 [35mtarget_size[0m : [92m224[0m
+[12/30 17:31:50]             [35mRandomFlip[0m : [92mNone[0m
+[12/30 17:31:50]             [35mImage2Array[0m : [92mNone[0m
+[12/30 17:31:50]             [35mNormalization[0m : 
+[12/30 17:31:50]                 [35mmean[0m : [92m[0.485, 0.456, 0.406][0m
+[12/30 17:31:50]                 [35mstd[0m : [92m[0.229, 0.224, 0.225][0m
+[12/30 17:31:50]     [35mvalid[0m : 
+[12/30 17:31:50]         [35mdecode[0m : 
+[12/30 17:31:50]             [35mname[0m : [92mFrameDecoder[0m
+[12/30 17:31:50]         [35msample[0m : 
+[12/30 17:31:50]             [35mname[0m : [92mSampler[0m
+[12/30 17:31:50]             [35mnum_seg[0m : [92m8[0m
+[12/30 17:31:50]             [35mseg_len[0m : [92m1[0m
+[12/30 17:31:50]             [35mvalid_mode[0m : [92mTrue[0m
+[12/30 17:31:50]         [35mtransform[0m : 
+[12/30 17:31:50]             [35mScale[0m : 
+[12/30 17:31:50]                 [35mshort_size[0m : [92m256[0m
+[12/30 17:31:50]             [35mCenterCrop[0m : 
+[12/30 17:31:50]                 [35mtarget_size[0m : [92m224[0m
+[12/30 17:31:50]             [35mImage2Array[0m : [92mNone[0m
+[12/30 17:31:50]             [35mNormalization[0m : 
+[12/30 17:31:50]                 [35mmean[0m : [92m[0.485, 0.456, 0.406][0m
+[12/30 17:31:50]                 [35mstd[0m : [92m[0.229, 0.224, 0.225][0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mPRECISEBN[0m : 
+[12/30 17:31:50]     [35mnum_iters_preciseBN[0m : [92m200[0m
+[12/30 17:31:50]     [35mpreciseBN_interval[0m : [92m5[0m
+[12/30 17:31:50] ------------------------------------------------------------
+[12/30 17:31:50] [35mepochs[0m : [92m80[0m
+[12/30 17:31:50] [35mlog_interval[0m : [92m10[0m
+[12/30 17:31:50] [35mlog_level[0m : [92mINFO[0m
+[12/30 17:31:50] [35mmodel_name[0m : [92mppTSM[0m
+Traceback (most recent call last):
+  File "main.py", line 139, in <module>
+    main()
+  File "main.py", line 135, in main
+    profiler_options=args.profiler_options)
+  File "/home/aistudio/PaddleVideo/paddlevideo/tasks/train.py", line 90, in train_model
+    places = paddle.set_device('gpu')
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/device/__init__.py", line 313, in set_device
+    place = _convert_to_place(device)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/device/__init__.py", line 202, in _convert_to_place
+    raise ValueError("The device should not be 'gpu', "
+ValueError: The device should not be 'gpu', since PaddlePaddle is not compiled with CUDA
